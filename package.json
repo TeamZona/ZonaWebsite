@@ -1,0 +1,22 @@
+{
+  "name": "zonawebsite",
+  "version": "1.0.0",
+  "description": "Official Zona Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamZona/ZonaWebsite.git"
+  },
+  "author": "Team Zona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeamZona/ZonaWebsite/issues"
+  },
+  "homepage": "https://github.com/TeamZona/ZonaWebsite#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
