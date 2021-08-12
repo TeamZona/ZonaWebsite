@@ -38,3 +38,11 @@ let swiper = new Swiper('.swiper-container',{
     
 });
 
+const eventsbtn = document.getElementById("event_btn"),
+eventsslider = document.getElementById("events_slides");
+
+eventsbtn.addEventListener("click",()=>{
+    eventsbtn.classList.add("inactive");
+    eventsslider.classList.remove("inactive");
+})
+
