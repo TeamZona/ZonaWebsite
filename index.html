@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <link rel="stylesheet" href="/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="\css\style.css">
+  <script src="script/swiper-bundle.min.js"></script>
   <title>Zona</title>
 </head>
 
@@ -45,9 +46,9 @@
   <section class="events">
     <img class="events_img" src="images/events_image.png">
     <div class="overlay_event"></div>
-    <!-- <button class="event_btn">Events</button> -->
+    <button class="event_btn" id="event_btn">Events</button>
 
-    <div class="slides">
+    <div class="slides inactive" id="events_slides">
       <div class="swiper-container">
       
         <div class="swiper-wrapper">
@@ -80,10 +81,15 @@
           
         </div>
         
-        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
         
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        
+        <div class="swiper-pagination"></div>
 
       </div>
     </div>
@@ -130,7 +136,6 @@
     <p class="footer__copyright">Copyright &#169; 2021 <br> All right reserved by <strong>Zona</strong></p>
   </footer>
   <script src="script\script.js"></script>
-  <script src="script\swiper-bundle.min.js"></script>
 </body>
 
 </html>
