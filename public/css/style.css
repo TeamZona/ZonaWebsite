@@ -304,6 +304,26 @@ svg {
   top: -17vw;
 }
 
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: " ";
+}
+
+.swiper-portfolio-icon {
+  font-size: 5vw;
+  color: #6831ea;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #6831ea;
+}
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination-bullet {
+  outline: none;
+}
+
 /* .coolBeans {
   border: 2px solid currentColor;
   border-radius: 3rem;
