@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="\css\style.css">
   <title>Zona</title>
 </head>
@@ -42,9 +43,51 @@
     <button class="aboutus_btn" id="aboutus_btn">About Us</button>
   </section>
   <section class="events">
-    <img class="events_img" src="images/events_image.png"></img>
+    <img class="events_img" src="images/events_image.png">
     <div class="overlay_event"></div>
-    <button class="event_btn">Events</button>
+    <!-- <button class="event_btn">Events</button> -->
+
+    <div class="slides">
+      <div class="swiper-container">
+      
+        <div class="swiper-wrapper">
+          
+          <div class="swiper-slide">
+            <img src="images/event.jpg" class="slide1_img" alt="">
+            <div class="slide-title">
+              <button class="slide-btn" href="#"><strong>TheMemeGame</strong></button>
+            </div>
+
+            <div class="slide-description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod modi saepe voluptatem minus, nisi iusto doloribus? Voluptas, optio! Ipsam nulla quia natus corporis velit officia. Suscipit quibusdam illum, velit, nisi repudiandae nesciunt eum possimus voluptatibus itaque error sed aperiam odio aliquid amet, quis doloribus quae minus! Nesciunt esse corporis temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, facilis.</p>
+            </div>
+            
+          </div>
+          
+          
+          <div class="swiper-slide">
+            <img src="images/event.jpg" class="slide1_img" alt="">
+            <div class="slide-title">
+              <button class="slide-btn" href="#"><strong>Aucfest</strong></button>
+            </div>
+
+            <div class="slide-description">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod modi saepe voluptatem minus, nisi iusto doloribus? Voluptas, optio! Ipsam nulla quia natus corporis velit officia. Suscipit quibusdam illum, velit, nisi repudiandae nesciunt eum possimus voluptatibus itaque error sed aperiam odio aliquid amet, quis doloribus quae minus! Nesciunt esse corporis temporibus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, facilis.</p>
+            </div>
+            
+          </div>
+          
+          
+        </div>
+        
+        <div class="swiper-pagination"></div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </div>
+    
   </section>
   <footer class="footer">
     <div class="footer_container">
@@ -87,6 +130,7 @@
     <p class="footer__copyright">Copyright &#169; 2021 <br> All right reserved by <strong>Zona</strong></p>
   </footer>
   <script src="script\script.js"></script>
+  <script src="script\swiper-bundle.min.js"></script>
 </body>
 
 </html>
