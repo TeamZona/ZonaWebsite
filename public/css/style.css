@@ -98,6 +98,32 @@ min-width: 325px;
     background: rgba(0, 0, 0, 0.64);
     z-index: 1;
 }
+
+.overlay_aboutus p{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left:19vw ;
+    margin-right: 1vw;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    color: white;
+    line-height: 1.4em;
+}
+.aboutus_imgonclick1{
+    position: absolute;
+    height: 25vh;
+    width: 16vw;
+    right: 26vw;
+    top: 20vh;  
+}
+.aboutus_imgonclick2{
+    position: absolute;
+    height: 25vh;
+    width: 16vw;
+    right: 26vw;
+    bottom: 20vh;  
+}
+
 .aboutus_btn{
     position:absolute;
     top: 50%;
@@ -208,6 +234,10 @@ min-width: 325px;
   border-color: #fff;
   transform: scale(1.05);
   will-change: transform;
+}
+
+.inactive{
+    display: none;
 }
 /* .coolBeans {
   border: 2px solid currentColor;
