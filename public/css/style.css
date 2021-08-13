@@ -34,6 +34,10 @@ nav ul li {
   font-size: 1.2vw;
 }
 
+nav ul li:hover{
+  color: #6831ea;
+}
+
 nav button {
   margin: 0;
   margin-top: 2.5vw;
@@ -46,6 +50,11 @@ nav button {
 }
 nav button:active {
   border-radius: 19px;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
 }
 
 nav button:nth-child(2) {
